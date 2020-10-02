@@ -1,6 +1,7 @@
 # Simple Coming Soon Template
 
 Demo: [https://coming-soon-template-vuejs.netlify.app/](https://coming-soon-template-vuejs.netlify.app/)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2f803c2b-e84b-4193-9def-e53a6b7a8c10/deploy-status)](https://app.netlify.com/sites/coming-soon-template-vuejs/deploys)
 
 ## Project setup
@@ -25,13 +26,13 @@ cp .env.example .env
 6. Set the value of `VUE_APP_INSTAGRAM` variable.
 7. Set the value of `VUE_APP_LINKEDIN` variable.
 
-### Compiles and hot-reloads for development
+## Compiles and hot-reloads for development
 
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+## Compiles and minifies for production
 
 ```
 npm run build
