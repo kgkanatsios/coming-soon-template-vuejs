@@ -26,7 +26,6 @@
 </template>
 
 <script>
-console.log(process.env.VUE_APP_TITLE);
 export default {
   name: "TemplateOne",
   data(){
