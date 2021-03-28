@@ -6,13 +6,13 @@ Demo: [https://coming-soon-template-vuejs.netlify.app/](https://coming-soon-temp
 
 ## Project setup
 
-```
+```sh
 npm install
 ```
 
 ## Installation
 
-```
+```sh
 cp .env.example .env
 ```
 
@@ -25,15 +25,16 @@ cp .env.example .env
 5. Set the value of `VUE_APP_YOUTUBE` variable.
 6. Set the value of `VUE_APP_INSTAGRAM` variable.
 7. Set the value of `VUE_APP_LINKEDIN` variable.
+8. Set the value of `VUE_APP_GA_ID` variable (ID for Google Analytics).
 
 ## Compiles and hot-reloads for development
 
-```
+```sh
 npm run serve
 ```
 
 ## Compiles and minifies for production
 
-```
+```sh
 npm run build
 ```

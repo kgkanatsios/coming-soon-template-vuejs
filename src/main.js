@@ -10,18 +10,20 @@ import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 library.add(faUserSecret);
-
 Vue.component("font-awesome-icon", FontAwesomeIcon);
-
 Vue.config.productionTip = false;
 
 import VueTypedJs from "vue-typed-js";
-
 Vue.use(VueTypedJs);
 
-import App from "./App.vue";
+import VueAnalytics from 'vue-analytics';
+if (process.env.VUE_APP_GA_ID) {
+  Vue.use(VueAnalytics, {
+    id: process.env.VUE_APP_GA_ID
+  });
+}
 
-Vue.config.productionTip = false;
+import App from "./App.vue";
 
 new Vue({
   render: h => h(App)
