@@ -26,6 +26,7 @@ cp .env.example .env
 6. Set the value of `VUE_APP_INSTAGRAM` variable.
 7. Set the value of `VUE_APP_LINKEDIN` variable.
 8. Set the value of `VUE_APP_GA_ID` variable (ID for Google Analytics).
+9. Set the value of `VUE_APP_GTAG_ID` variable (ID for Google Global site tag).
 
 ## Compiles and hot-reloads for development
 

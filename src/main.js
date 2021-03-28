@@ -23,6 +23,13 @@ if (process.env.VUE_APP_GA_ID) {
   });
 }
 
+import VueGtag from "vue-gtag";
+if (process.env.VUE_APP_GTAG_ID) {
+  Vue.use(VueGtag, {
+    config: { id: process.env.VUE_APP_GTAG_ID }
+  });
+}
+
 import App from "./App.vue";
 
 new Vue({
