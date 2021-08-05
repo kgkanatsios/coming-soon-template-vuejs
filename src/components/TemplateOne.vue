@@ -45,15 +45,18 @@ export default {
 
 <style lang="scss" scoped>
 .template-one{
-  .title{
+  .title {
     font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 900;
   }
   .disclaimer{
     font-size: 1.5rem;
   }
   .background-container{
-    background-position: center center;
+    background-position: center bottom;
     background-size: cover;
+    background-repeat: no-repeat;
     box-shadow: inset 0rem 0rem 5rem rgba(0, 0, 0, 0.2) !important;
   }
   .social-media-container{
