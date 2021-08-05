@@ -3,7 +3,7 @@
     <b-col cols="12" sm="6" xl="8" class="p-5 d-none d-sm-flex justify-content-center align-items-center background-container" :style="{backgroundImage:'url('+backgroundImage+')'}"></b-col>
     <b-col cols="12" sm="6" xl="4" class="bg-light p-5 d-flex flex-column justify-content-center align-items-center shadow-lg">
       <div class="text-center my-auto">
-        <img :src="logo" alt="logo" class="img-fluid mx-auto mb-4">
+        <img :src="logo" alt="logo" class="img-fluid mx-auto mb-4 logo">
         <div class="title mb-3">{{ title }}</div>
         <div class="disclaimer font-weight-light">
           <vue-typed-js
@@ -30,7 +30,7 @@ export default {
   name: "TemplateOne",
   data(){
     return {
-      logo: require('@/assets/logo.png'),
+      logo: require('@/assets/Yaad-Group-TM.svg'),
       backgroundImage: require('@/assets/bg.jpg'),
       title: process.env.VUE_APP_TITLE,
       disclaimer:[process.env.VUE_APP_DISCLAIMER_FIRST_LINE, process.env.VUE_APP_DISCLAIMER_SECOND_LINE],
@@ -67,6 +67,9 @@ export default {
         text-decoration: none;
       }
     }
+  }
+  .logo {
+    width: 15rem;
   }
 }
 </style>
