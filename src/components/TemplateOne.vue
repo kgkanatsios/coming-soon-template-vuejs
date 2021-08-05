@@ -54,7 +54,7 @@ export default {
     font-size: 1.5rem;
   }
   .background-container{
-    background-position: center bottom;
+    background-position: 25% bottom;
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: inset 0rem 0rem 5rem rgba(0, 0, 0, 0.2) !important;
