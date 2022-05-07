@@ -16,22 +16,22 @@ Vue.config.productionTip = false;
 import VueTypedJs from "vue-typed-js";
 Vue.use(VueTypedJs);
 
-import VueAnalytics from 'vue-analytics';
+import VueAnalytics from "vue-analytics";
 if (process.env.VUE_APP_GA_ID) {
   Vue.use(VueAnalytics, {
-    id: process.env.VUE_APP_GA_ID
+    id: process.env.VUE_APP_GA_ID,
   });
 }
 
 import VueGtag from "vue-gtag";
 if (process.env.VUE_APP_GTAG_ID) {
   Vue.use(VueGtag, {
-    config: { id: process.env.VUE_APP_GTAG_ID }
+    config: { id: process.env.VUE_APP_GTAG_ID },
   });
 }
 
 import App from "./App.vue";
 
 new Vue({
-  render: h => h(App)
+  render: (h) => h(App),
 }).$mount("#app");
