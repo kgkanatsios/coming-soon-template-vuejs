@@ -5,18 +5,19 @@
 </template>
 
 <script>
-import TemplateOne from './components/TemplateOne.vue';
+import TemplateOne from "./components/TemplateOne.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    TemplateOne
-  }
-}
+    TemplateOne,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 #app {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
-</style>>
+</style>
+>
